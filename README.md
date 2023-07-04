@@ -7,4 +7,6 @@
 * 1. String Pool is a separate memory structure inside the heap.
 Example : String a = "Kunal";
           String b = "Kunal";
+![image](https://github.com/ShrutiSharma-27/STRINGS/assets/53565103/fa6813b4-ccf6-4227-8f1d-f2c26666d1c5)
+
 * 2. Immutability 
