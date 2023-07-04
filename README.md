@@ -17,6 +17,7 @@ How it will save inside memory ?
 
 
 Why String pool ? [Usecase]
+
 Similar values of strings aren't recreated inside string pool.
 
 * 2. Immutability 
