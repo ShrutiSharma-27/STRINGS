@@ -12,11 +12,12 @@
      Example : String a = "Kunal"; String b = "Kunal";
 
      How it will save inside memory ?
-     ![image](https://github.com/ShrutiSharma-27/STRINGS/assets/53565103/f1655b09-5a89-4e84-a671-e9e0951c0040)
-
+     ![image](https://github.com/ShrutiSharma-27/STRINGS/assets/53565103/0fa64564-882c-4be1-ad8b-402cc747d7bc)
 
      Why String pool ? [Usecase]
 
-     Because similar values of strings aren't recreated inside string pool.
+     Because similar values of strings aren't recreated inside string pool and makes our program optimised
 
-* 2. Immutability 
+* 2. Immutability
+     
+     You can't modify string objects in java as they are immutable. 
