@@ -22,3 +22,13 @@ public class Comparison_of_strs {
         System.out.println(b.equals(c));
     }
 }
+
+//Output :
+
+//true
+//true
+//true
+//false
+//false
+//true
+//true
