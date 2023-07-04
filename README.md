@@ -1,4 +1,5 @@
 # STRINGS' NOTES
+
 * String is the most commonly used class in java's class library.
 * Everything that starts with a capital letter is a class.
 * Every string you creates is actually an object of class String.
