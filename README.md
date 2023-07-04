@@ -20,7 +20,9 @@
 
 * 2. Immutability
      
-     You can't modify string objects in java as they are immutable but you can create another object for the same desired reference variable. Strings are immutable for security reasons. As if an object is modified with the help of a particular reference variable then  
+     You can't modify string objects in java as they are immutable but you can create another object for the same desired reference 
+     variable. Strings are immutable for security reasons. Because if strings are mutable then the object value for all the reference 
+     variables, pointing to the same object in pool, will be modified if any of them is used to modify that common object.
 
      Example :
      ![image](https://github.com/ShrutiSharma-27/STRINGS/assets/53565103/6b89f56c-27e3-4ea3-b311-2ec30521ec88)
