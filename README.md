@@ -31,3 +31,11 @@
      Now, what will happen to the object "Kunal" ?
 
      Answer is 'Garbage Collection'.
+
+* String[] args : Command line arguments : It is the array of strings, whatever java command you type on terminal will get stored in it.
+
+  Demo.java :
+  ![image](https://github.com/ShrutiSharma-27/STRINGS/assets/53565103/cc0d2e15-2153-406f-8b67-bbc3b8e99994)
+
+  Terminal :
+  ![image](https://github.com/ShrutiSharma-27/STRINGS/assets/53565103/2d7d2e76-f97a-40b4-b721-b7de39ba8884)
