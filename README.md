@@ -6,8 +6,8 @@
 ## 2 Concepts :
 * 1. String Pool is a separate memory structure inside the heap.
  
-How it looks in memory ?
-![image](https://github.com/ShrutiSharma-27/STRINGS/assets/53565103/b7e15d44-d84c-446a-b3ef-cfd6feaac7be)
+     How it looks in memory ?
+     ![image](https://github.com/ShrutiSharma-27/STRINGS/assets/53565103/b7e15d44-d84c-446a-b3ef-cfd6feaac7be)
 
 Example : String a = "Kunal";
           String b = "Kunal";
