@@ -32,7 +32,6 @@ public class PrettyPrinting {
 
 //Output :
 
-
 //Formatted number is 453.123413
 //Formatted number is 453.12
 //Formatted number is 349.24
