@@ -33,3 +33,12 @@ public class Output_strs {
         System.out.println(name);
     }
 }
+
+//Output :
+
+//56
+//56
+//Shruti
+//[I@4617c264
+//[1, 2, 3, 4]
+//null
