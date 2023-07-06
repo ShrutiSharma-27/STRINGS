@@ -40,3 +40,5 @@
 
   Terminal :
   ![image](https://github.com/ShrutiSharma-27/STRINGS/assets/53565103/2d7d2e76-f97a-40b4-b721-b7de39ba8884)
+
+* null pointer exception
