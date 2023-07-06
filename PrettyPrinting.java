@@ -26,6 +26,16 @@ public class PrettyPrinting {
         System.out.println(Math.PI);
         System.out.printf("Value of pi upto 3 decimal places : %.3f",Math.PI);
 
-        System.out.printf("My name is %s and love watching %s","Shruti","movies");
+        System.out.printf("\nMy name is %s and love watching %s","Shruti","movies");
     }
 }
+
+//Output :
+
+
+//Formatted number is 453.123413
+//Formatted number is 453.12
+//Formatted number is 349.24
+//3.141592653589793
+//Value of pi upto 3 decimal places : 3.142
+//My name is Shruti and love watching movies.
