@@ -27,3 +27,19 @@ public class Str_Builder {
 
     }
 }
+
+//Output :
+
+// abcdefghijklmnopqrstuvwxyz
+// abcdefghijklmnopqrstuvwxyz10
+// abcdefghijklmnopqrstuvwxyz104.5
+// bcdefghijklmnopqrstuvwxyz104.5
+// befghijklmnopqrstuvwxyz104.5
+// 4
+// 5.401zyxwvutsrqponmlkjihgfeb
+// 5d.401zyxwvutsrqponmlkjihgfeb
+// 5d.401dzyxwvutsrqponmlkjihgfeb
+// 6
+// 5d401dzyxwvutsrqponmlkjihgfeb
+// 1dzyxwvutsrqponmlkjihgfeb
+// 1dzyxwvABCrqponmlkjihgfeb
