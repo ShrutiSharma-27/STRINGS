@@ -20,3 +20,15 @@ public class Str_methods {
         System.out.println(Arrays.toString(a.split(" "))); //split a into an array wherever we've space as it is specified as the splitting parameter
     }
 }
+
+//Output :
+
+// r
+// [S, h, r, u, t, i,  , S, h, a, r, m, a]
+// 13
+// shruti sharma
+// SHRUTI SHARMA
+// 9
+// Shruti
+// 6
+// [Shruti, Sharma]
