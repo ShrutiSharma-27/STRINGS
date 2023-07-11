@@ -37,3 +37,12 @@ public class Palindrome {
 }
 
 //time complexity : O(n)
+
+//Output :
+
+// true
+// false
+// true
+// true
+// true
+// true
