@@ -163,3 +163,79 @@ public class Pattern {
         }
     }
 }
+
+//Output :
+
+// Pattern 1 : No of columns = Total no of rows
+// * * * * 
+// * * * * 
+// * * * * 
+// * * * * 
+
+// Pattern 2 : No of rows = No of columns
+// * 
+// * * 
+// * * * 
+// * * * * 
+
+// Pattern 3 : Reverse of pattern 2
+// * * * * 
+// * * * 
+// * * 
+// * 
+
+// Pattern 4 : No of rows = No of columns & column numbers also get printed
+// 1 
+// 1 2 
+// 1 2 3 
+// 1 2 3 4 
+
+// Pattern 5 : Combination of 2 and 3
+// * 
+// * * 
+// * * * 
+// * * * * 
+// * * * * * 
+// * * * * 
+// * * * 
+// * * 
+// * 
+
+// Pattern 28 : Diamond Printing
+//     * 
+//    * * 
+//   * * * 
+//  * * * * 
+// * * * * * 
+//  * * * * 
+//   * * * 
+//    * * 
+//     * 
+
+// Pattern 30
+//         1 
+//       2 1 2 
+//     3 2 1 2 3 
+//   4 3 2 1 2 3 4 
+// 5 4 3 2 1 2 3 4 5 
+
+// Pattern 17
+//         1 
+//       2 1 2 
+//     3 2 1 2 3 
+//   4 3 2 1 2 3 4 
+// 5 4 3 2 1 2 3 4 5 
+//   4 3 2 1 2 3 4 
+//     3 2 1 2 3 
+//       2 1 2 
+//         1 
+
+// Pattern 31 !!
+
+// 4 4 4 4 4 4 4 
+// 4 3 3 3 3 3 4 
+// 4 3 2 2 2 3 4 
+// 4 3 2 1 2 3 4 
+// 4 3 2 2 2 3 4 
+// 4 3 3 3 3 3 4 
+// 4 4 4 4 4 4 4 
