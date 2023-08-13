@@ -42,3 +42,37 @@ public class Str_substring {
         System.out.println(Arrays.toString(parts1));
     }
 }
+
+//Output :
+
+// bcd
+
+// a
+// f
+// cdef
+// a
+// ab
+// abc
+// abcd
+// abcde
+// abcdef
+// b
+// bc
+// bcd
+// bcde
+// bcdef
+// c
+// cd
+// cde
+// cdef
+// d
+// de
+// def
+// e
+// ef
+// f
+
+// Hello World
+// Hello WorldM10
+// [abc, def, ghi, jkl, mno]
+// [abc, def, ghi, jkl mno]
