@@ -6,7 +6,7 @@
 * String name = "Shruti Sharma" ; //here String is datatype, name is reference variable, and "Shruti Sharma" is object.
   
 ## 2 Concepts :
-* 1. String Pool is a separate memory structure inside the heap.
+* 1. String Constant Pool (SCP) is a separate memory structure inside the heap.
  
      How it looks in memory ?
      ![image](https://github.com/ShrutiSharma-27/STRINGS/assets/53565103/b7e15d44-d84c-446a-b3ef-cfd6feaac7be)
@@ -19,6 +19,8 @@
      Why String pool ? [Usecase]
 
      Because similar values of strings aren't recreated inside string pool and makes our program optimised
+
+     Mainly called as - String Interning - is a method of storing only one copy of each distinct String Value, which must be immutable to optimise space.
 
 * 2. Immutability
      
