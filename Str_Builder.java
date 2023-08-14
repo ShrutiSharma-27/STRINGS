@@ -6,9 +6,11 @@ public class Str_Builder {
         }
         System.out.println(builder);
 
+        //APPEND any character in string
         builder.append(10); System.out.println(builder);
         builder.append(4.5); System.out.println(builder); //you can append various other data types
 
+        //DELETE any character of string
         builder.deleteCharAt(0); System.out.println(builder);
 
         builder.delete(1,3); System.out.println(builder); //delete characters at index 1 & 2
@@ -16,6 +18,7 @@ public class Str_Builder {
         System.out.println(builder.indexOf("h"));
         builder.reverse(); System.out.println(builder);
 
+        //INSERT any character in string
         builder.insert(1, 'd'); System.out.println(builder); //insert at index 1
         builder.insert(6, 'd'); System.out.println(builder); //insert at index 6
 
