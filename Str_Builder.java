@@ -1,6 +1,8 @@
 public class Str_Builder {
     public static void main(String[] args) {
         StringBuilder builder = new StringBuilder(); //StringBuilder is a mutable object like arrays
+
+        //Unlike, O(N^2) time complexity with strings, we've O(N) time complexity for the below loop using StringBuilder object class.
         for (int i = 0; i < 26; i++) {
             builder.append((char) ('a' + i)); //no new object has been created as every change is made in the original object builder
         }
