@@ -37,6 +37,8 @@
      Answer is 'Garbage Collection'.
 
      > reference is mutable, but string instance is immutable.
+     
+     > Impact of immutability : performance of strings is slow in Java (Resolution : String Builder Class)
 
 * String[] args : Command line arguments : It is the array of strings, whatever java command you type on terminal will get stored in it.
 
