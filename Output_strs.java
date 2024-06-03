@@ -9,7 +9,7 @@ public class Output_strs {
         System.out.println(56); //println calls valueOf() which inside itself calls toString()
         //where originally it is specified.
 
-        Integer num = new Integer(56);
+        Integer num = new (56); //Integer num = new Integer(56); //Integer specification not necessary
         System.out.println(num.toString()); //as num is an object of wrapper class Integer so we can use .toString method (as
         // it can take object as an argument) otherwise it work similar as primitive int.
 
