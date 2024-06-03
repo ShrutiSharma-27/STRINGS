@@ -12,7 +12,7 @@ public class Comparison_of_strs {
         //using new keyword
         String x = new String("Shruti");
         String y = new String("Shruti");
-        //this created two different objects with same value "Sharma" but outside String pool and inside heap.
+        //this created two different objects with same value "Shruti" but outside String pool and inside heap.
 
         System.out.println(x==y);
         System.out.println(c==y);
