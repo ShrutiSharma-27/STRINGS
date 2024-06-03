@@ -14,11 +14,20 @@ public class Operators_strs {
         //**operator + is only defined, in Java, for primitives and if any 1 of the operand is string.
         //It means you can use + with any of the complex objects but the condition is that atleast 1 object should be of type string.
         //Hence, new Integer(56) + new ArrayList<>() will give error
-        System.out.println(new Integer(56) + "" + new ArrayList<>()); //now it'll work
+        System.out.println(new (56) + "" + new ArrayList<>()); //now it'll work //not suitable to write new Integer(56) nowadays
 
         //Java doesn't allow you to do operator overloading like we can do in C++ & Python.
         //Java avoids it because it results in poor code and it has only overloaded the + operator for strings(exception) to support concatenation.
     }
-
-
 }
+
+// Output :
+
+// 195
+// ab
+// 100
+// d
+// a1
+// Shruti[]
+// a56
+// 56[]
