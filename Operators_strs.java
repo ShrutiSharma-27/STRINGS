@@ -5,7 +5,7 @@ public class Operators_strs {
         System.out.println('a'+'b'); //char is converted to it's int value (ASCII value)
         //after printing garbage collection will come and take "ab" as it's no longer of any use because you've not stored it anywhere.
 
-        System.out.println("a"+"b"); //I converted it to
+        System.out.println("a"+"b");
         System.out.println('a'+3); //97(ASCII value of 'a') + 3 = 100
         System.out.println((char)('a'+3));
         System.out.println("a"+1); //int will be converted to the Integer wrapper class which will call .toString()
