@@ -24,7 +24,10 @@ public class Palindrome {
     static boolean isPalindrome(String s){
         //ask the interviewer that whether null should be considered true or false.
         if (s==null) return true; //check for null otherwise it'll throw error
-        s = s.toLowerCase(Locale.ROOT);
+        s = s.toLowerCase(Locale.ROOT); //Using Locale.ROOT ensures that the case conversion behaves consistently across different locales. 
+                                        //For example, some locales may have specific rules for converting characters to lowercase 
+                                        //(such as Turkish, where the lowercase of I is not i but ı). By using Locale.ROOT, you avoid these 
+                                        //locale-specific rules and get a uniform result.
         int n = s.length();             //arr.length was a variable so there was no brackets but here length() is a function
         for (int i=0 ; i<n/2 ; i++){
             char start = s.charAt(i);
