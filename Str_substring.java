@@ -46,7 +46,7 @@ public class Str_substring {
 //Output :
 
 // bcd
-
+//
 // a
 // f
 // cdef
